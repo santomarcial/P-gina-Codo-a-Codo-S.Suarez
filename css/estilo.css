@@ -1,0 +1,416 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{color: white;
+}
+h2{color: white;
+    margin-left: 10px;
+}
+p{  color: white;
+    padding: 0 10px;
+}
+header {
+    width: 990px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+article {
+    width: 990px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+.botonera {
+    width: 990px;
+}
+.botonera ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: hsl(0, 0%, 33%);
+}
+.botonera ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    padding: 10px;
+}
+.botonera ul li a:hover {
+    background: hsl(0, 0%, 50%);
+}
+.botonera ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.botonera li {
+    flex: 1 0 auto;
+    text-align: center;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+}
+#inicio{
+    background-image: url(../imágenes/obelisco\ hd.jpg);
+    background-size: cover;
+    width: 990px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.Párrafo {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.Párrafo p:hover{
+    color:yellow;
+}
+footer {
+    width: 990px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(56, 56, 56);
+    margin-top: 20px;
+} 
+#créditos {
+    padding: 10px;
+}
+ .contenidodetarjeta {
+     padding: 20px;
+ }
+ .contenidodetarjeta h2{
+     margin-top: 0;
+     margin-bottom: 10px;
+     font-weight: normal;
+ }
+ figure{
+     margin: 0px;
+ }
+ img {
+     display: block;
+     border: 0;
+     width: 100%;
+     height: 200px;
+ }
+ img:hover {filter: saturate(180%);
+}
+ .tarjeta {
+     background-color: gray;
+     margin-bottom: 20px;
+     width: 315px;
+     height: 400px;
+ }
+ .tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+ }
+ #imagencontacto{
+     width: 990px;
+     height: 400px;
+     margin-bottom: 20px;
+ }
+ .formulario {
+     width: 950px;
+    margin: auto;
+    border: none;}
+ .formulario input{
+        padding: 10px;
+        border: 1px solid white;
+        background-color: rgb(80, 79, 79);
+        margin-bottom: 45px;
+        width: 300px;
+    }
+   .formulario label {
+         position: absolute;
+         margin-top: -125px;   
+         color: white;
+        }
+    #botón {
+         margin-top: 10px;
+         background-color: gray;
+        }
+    legend {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+    }
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+
+    header {
+        width: 730px;
+        height: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    article {
+        width: 730px;
+        margin-right: auto;
+        margin-left: auto;
+    } 
+    .botonera {
+        width: 730px;
+        margin-left: auto;
+    }
+    .botonera ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .botonera ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .botonera ul li a:hover {
+        background: hsl(0, 0%, 50%);
+    } 
+    .botonera ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .botonera li {
+        flex: 1 0 auto;
+        text-align: center;
+    }
+    #inicio{
+        background-image: url(../imágenes/obelisco\ hd.jpg);
+        background-size: cover;
+        width: 730px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .Párrafo {
+        width: 420px;
+        height: 225px;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .Párrafo p{
+        font-weight: bold;
+    }
+    #footerinicio {
+        width: 730px;
+    }
+    footer {
+        width: 730px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    } 
+    #créditos {
+        padding: 10px;
+    }
+     .contenidodetarjeta {
+         padding: 20px;
+     }
+     .contenidodetarjeta h2{
+         margin-top: 0;
+         margin-bottom: 10px;
+         font-weight: normal;
+     }
+     img {
+         display: block;
+         border: 0;
+         width: 100%;
+         height: 200px;
+     }    
+     .tarjeta {
+         margin-bottom: 25px;
+         width: 350px;
+         height: 400px;
+     }
+     .tarjetas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+     }
+     #imagencontacto{
+         width: 730px;
+         height: 350px;
+         margin-bottom: 20px;
+     } 
+     .formulario {
+         width: 670px;
+        margin: auto;
+        border: none;}
+  
+     .formulario input{
+        padding: 10px;
+        width: 300px;
+        }
+      .formulario label {
+        position: absolute;
+        margin-top: -125px;   
+       }
+       #botón {
+           margin-top: 10px;
+       }
+        legend {
+        font-size: 20px;
+        margin-bottom: 30px;
+        }
+}
+
+@media all and (max-width: 768px){
+    header {
+        width: 340px;
+        height: 110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {font-size: 28px;}
+
+    article {
+        width: 340px;
+        margin-right: auto;
+        margin-left: auto;
+    } 
+    
+    .botonera {
+        width: 340px;
+        margin: 0px;
+    }
+    
+    .botonera ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        background: hsl(0, 0%, 33%);
+    }
+    
+    .botonera ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .botonera ul li a:hover {
+        background: hsl(0, 0%, 50%);
+    }
+    
+    .botonera ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .botonera li {
+        flex: 1 0 auto;
+        text-align: center;
+    }
+    
+    section{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #inicio{
+        background-image: url(../imágenes/obelisco\ hd.jpg);
+        background-size: cover;
+        width: 340px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
+    
+    .Párrafo {
+        width: 280px;
+        height: 225px;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .Párrafo p{
+        font-weight: bold;
+        font-size: small;
+    }
+    
+    footer {
+        width: 340px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: small;
+        margin-top: 10px;
+    } 
+    
+    #créditos {
+        padding: 10px;
+    }
+     .contenidodetarjeta {
+         padding: 20px;
+     }
+     .contenidodetarjeta h2{
+         margin-top: 0;
+         margin-bottom: 10px;
+         font-weight: normal;
+     }
+     img {
+         display: block;
+         width: 100%;
+         height: 200px;
+     }
+     .tarjeta {
+         margin-bottom: 20px;
+         width: 340px;
+         height: 400px;
+     }
+     .tarjetas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+     }
+     #imagencontacto{
+         width: 340px;
+         height: 150px;
+         margin-bottom: 20px;
+     }
+     .formulario {
+        border: none; 
+        width: 280px;
+        margin: 30px auto;
+     }
+     .formulario input{
+        width: 270px;           
+        padding: 8px;
+        margin-top: 10px;
+     }
+     .formulario label {
+        position: absolute;
+        margin-top: -130px;   
+     }
+     #botón {margin-top: 10px;
+     } 
+
+     legend {
+       font-size: 18px;
+       margin-bottom: 30px;
+     }
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="centrado">
+            <h1 class="titulopag">Contactame</h1>
+            <nav class="botonera">
+                 <ul>
+                   <li><a href="../index.html">Inicio</a></li>
+                   <li> <a href="../html/lugares.html">Lugares épicos</a></li>
+                   <li> <a href="#">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+    
+   <article>
+    <section>
+        <img id="imagencontacto" src="../imágenes/caminando-buenos-aires.jpg" alt="imagencontacto">
+    </section>
+
+    <script>
+        function validar (){
+            
+            var form = document.form;
+
+            if (form.nombre.value ==0){
+            alert ("el campo nombre está vacío");
+            form.nombre.value="";
+            form.nombre.focus();
+            return false;
+            }
+
+            if (form.email.value ==0){
+            alert ("el campo email está vacío");
+            form.email.value="";
+            form.email.focus();
+            return false;
+            } 
+
+            if (form.mensaje.value ==0){
+            alert ("el campo mensaje está vacío");
+            form.mensaje.value="";
+            form.mensaje.focus();
+            return false;
+            }
+
+            alert ("datos enviados con éxito");
+            form.submit();
+        }
+
+    </script>
+
+
+    <form action="#" name="form" method="POST" onsubmit="return validar();">
+        <fieldset class="formulario">
+         <legend><b>Contactame para salir a conocer la ciudad o dejame un comentario</b></legend><br>
+         <input type="text" id="nombre" name="nombre"><br><br>
+         <label for="nombre">Nombre</label>
+         <input type="email" id="email" name="email"><br><br>
+         <label for="email">Email</label>
+         <textarea name="mensaje" id="mensaje" cols="40" rows="5"></textarea><br><br>
+         <label for="motiv">Mensaje</label>
+         <button id="botón" onclick="validar();">Enviar datos</button> 
+        </fieldset>
+    </form>
+
+    
+
+</article>
+
+<footer>
+    <div id="créditos">
+        <p>Creado por Santo Marcial</p>
+        <p>@santomarcial</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
