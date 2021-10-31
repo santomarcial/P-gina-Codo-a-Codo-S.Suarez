@@ -149,6 +149,11 @@ footer {
     margin-bottom: 30px;
     }
 
+    #mensaje {
+        background-color: white;
+        width: 300px;
+    }
+
 @media all and (min-width: 768px) and (max-width: 1023px){
 
     header {
@@ -270,6 +275,10 @@ footer {
         legend {
         font-size: 20px;
         margin-bottom: 30px;
+        }
+        #mensaje {
+            background-color: white;
+            width: 300px;
         }
 }
 
@@ -412,5 +421,8 @@ footer {
        font-size: 18px;
        margin-bottom: 30px;
      }
+     #mensaje {
+        background-color:white;
+        width: 280px;
+    }
 }
-
